@@ -1,7 +1,7 @@
 import os
 from gtts import gTTS
 
-# setting the language for the voice
+# setting the language for the voice (English)
 language = "en"
 
 # sample text which needs to be converted
