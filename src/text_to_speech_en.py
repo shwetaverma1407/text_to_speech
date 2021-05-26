@@ -5,7 +5,7 @@ from gtts import gTTS
 language = "en"
 
 # sample text which needs to be converted
-file_text = open("sample_text.txt", "r").read().replace("\n", " ")
+file_text = open("../sample_text.txt", "r").read().replace("\n", " ")
 
 speech = gTTS(text=file_text, lang=language, slow=False)
 
